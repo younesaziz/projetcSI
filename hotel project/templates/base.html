@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RIAD LAMANE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "static/images/logoriad.jpeg" type = "static/image/jpeg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <a href="/"><span>RIAD LAMANE</span></a>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>RIAD LAMANE ZAGORA</h2>
+                <h4>Environnement, temps et objectif, le tout existe en soi </h4>
+                
+            </div>
+     
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "/">ACCUEIL</a></li>
+                <li><a href = "/contact">NOUS CONTACTER</a></li>
+                <li><a href = "/activity">LES ACTIVITES</a></li>
+            </ul>
+        </div>
+        {% block content %}
+        
+        {% endblock content %}
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="/">ACCUEIL</a></li>
+                    <li class="list-inline-item"><a href="/contact">NOUS CONTACTER</a></li>
+                    <li class="list-inline-item"><a href="/activity">LES ACTIVITES</a></li>
+                </ul>
+                <p class="copyright">copyright © YOUNES AZIZ</p>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-ba2bc619-c3d5-4b76-b276-47d333ab0755"></div>
+        <script src="static/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

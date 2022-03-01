@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<section id="sectione1">
+        <div class="content-wrapper">
+            <img src="static/images/sahara1.jpg">
+            <div class="text-wrapper">
+                <h1>ACTIVITES</h1>
+                <h2>  Pour une séjour agréable et inoubliable dans notre Riad,
+                    nous vous avons préparé des activités uniques pour 
+                    explorer le charme de la ville et de ses alentours.</h2>
+            </div>
+        </div>
+</section>
+<section id="sectione2">
+        <div class="content-wrapper2">
+            <img src="static/images/quad.jpg">
+            <div class="text-wrapper2">
+                <h1>EXPÉRIENCE TOTALE QUAD AU DÉSERT</h1>
+                <h2>Riad Lamane vous propose des balades en quad à Zagora adaptées à tous.
+                    Prenez le temps de vous dépasser tout en découvrant Zagora et sa région en quad hors des sentiers battus.
+                    Du petit matin jusqu’au coucher du soleil, de magnifiques aventures vous attendent dans un cadre exceptionnel.
+                    Votre balade en quad alternera entre sensations fortes dans les dunes et moments de liberté sur les longues désertes.
+                    Parcourez les pistes qui serpentent les palmiers, et les nombreuses plantes des dunes marocain.
+                    Vous découvrirez également une multitude d’oiseaux sur les dunes et au bord des rivières du Draa.</h2>
+            </div>
+        </div>
+</section>
+<section id="sectione3">
+        <div class="content-wrapper3">
+            <img src="static/images/hors.jpg">
+            <div class="text-wrapper3">
+                <h1>ÉQUITATION AU DÉSERT</h1>
+                <h2>Nous vous proposons un large choix de balades à cheval à ZAGORA pouvant aller d’1h à une journée avec pique-nique.
+                    Vous pourrez ainsi découvrir l’arrière pays de Zagora et galoper sur les dunes en toute liberté !
+                    Plusieurs itinéraires sont possibles ce qui vous permet de voir des paysages différents .</h2>
+            </div>
+        </div>
+</section>
+<section id="sectione4">
+    <video src="static/vedio/vdsahara.mp4" autoplay controls></video>
+
+</section>
+{% endblock %}
+{% block styles %}
+<script src="static/script.js"></script>
+<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+{% endblock %}
